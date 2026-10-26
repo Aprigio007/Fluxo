@@ -1,0 +1,50 @@
+/* Amarelo e preto: cores da marca centralizadas para facilitar ajustes. */
+:root {
+  --amarelo: #f5c518;
+  --amarelo-claro: #fff6ce;
+  --preto: #181818;
+  --destaque: var(--preto);
+  --borda: #e8e6df;
+  --cinza: #72716b;
+  color: var(--preto);
+  background: #f8f7f3;
+}
+.marca, .apresentacao h1 { color: var(--preto); }
+.ponto { color: #d6a600; }
+.principal { background: var(--amarelo); border-color: var(--amarelo); color: var(--preto); }
+.principal:hover { background: #e3b509; border-color: #e3b509; }
+button:focus-visible, a:focus-visible { outline-color: #ad8500; }
+input:focus, select:focus { border-color: #b38b00; box-shadow: 0 0 0 3px #f5c51830; }
+.apresentacao { background: var(--amarelo); }
+.apresentacao .etiqueta, .apresentacao p, .apresentacao small { color: #4a3f12; }
+.ilustracao { background: #fff9e2; border-color: #dbb630; box-shadow: 0 20px 50px #18181812; }
+.barras-decorativas i { background: #181818; }
+.barras-decorativas i:nth-child(2n) { background: #dec04d; }
+.barras-decorativas i:last-child { background: #181818; }
+nav button.ativo { background: var(--amarelo); color: var(--preto); }
+nav .contador { background: #fff2b5; color: #655000; }
+.dica { background: #fff8da; border-color: #f0e5b5; }
+.dica > span { color: #947000; }
+.avatar { background: var(--amarelo); color: var(--preto); }
+.cartao .icone-cartao { background: var(--amarelo-claro); color: #755b00; }
+.cartao.despesa .icone-cartao { background: #eeeeeb; color: #444; }
+.cartao.pendente .icone-cartao { background: #fff0ab; color: #796000; }
+.cartao.lucro { background: var(--preto); border-color: var(--preto); color: var(--amarelo); }
+.cartao.lucro > div, .cartao.lucro small { color: #d7d5cb; }
+.cartao.lucro .icone-cartao { background: #f5c51820; color: var(--amarelo); }
+.legenda span:first-child { color: #806100; }
+.legenda span:last-child { color: #555; }
+.categoria progress::-webkit-progress-value { background: var(--amarelo); }
+.categoria progress::-moz-progress-bar { background: var(--amarelo); }
+.simbolo { background: var(--amarelo-claro); color: #796000; }
+.simbolo.despesa { background: #eeeeeb; color: #555; }
+.valor-receita { color: #7a5c00; }
+.situacao.pago { background: #f0f0eb; color: #505047; }
+.situacao.pendente { background: #fff0ad; color: #705600; }
+.vazio > span, .documento { color: #a37b00; }
+.barra { background: var(--amarelo); }
+.barra.despesa { background: #343434; }
+.barra:hover:after, .barra:focus:after { background: var(--preto); color: #fff; }
+.perigo { background: #ad3831; color: #fff; }
+dialog::backdrop { background: #18181870; }
+#aviso { background: var(--preto); color: #fff; border-left: 4px solid var(--amarelo); }
