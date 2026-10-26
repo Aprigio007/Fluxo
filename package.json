@@ -1,0 +1,8 @@
+{
+  "name": "controle-financeiro",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": { "start": "node servidor/iniciar.js", "dev": "node --watch servidor/iniciar.js", "test": "node --test" },
+  "engines": { "node": ">=24" }
+}
